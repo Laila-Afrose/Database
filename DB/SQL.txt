@@ -1,0 +1,24 @@
+connect laila
+root
+
+//create user laila identified by root;
+grant all privileges to laila;
+
+describe inventory;
+describe customer;
+
+select * from inventory;
+select * from item;
+select * from product;
+select * from product_meta;
+select * from order_item;
+select * from order1;
+select * from customer;
+
+
+select firstname, lastname, phone, email from customer;
+select mrp from item;
+
+
+select title from item where mrp>35;
+
